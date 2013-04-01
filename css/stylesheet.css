@@ -1,0 +1,93 @@
+body {
+  font: Tahoma, Helvetica, Verdana, sans-serif;
+  font-size: 16px;
+  color: #555;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 10px;
+  background-color: #014976;
+  background: -webkit-linear-gradient(315deg, #014976 0%, #014976 30%, #027cc9 100%) fixed;
+  background: linear-gradient(135deg, #014976 0%, #014976 30%, #027cc9 100%) fixed;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, .button {
+  color: #333;
+  line-height: 1.1;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-weight: normal;
+  color: #494949;
+}
+
+a {
+  color: #014976;
+  font-weight: 400;
+}
+
+a:hover {
+  color: #069;
+}
+
+a, a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.widget {
+  background-color: #FFF;
+  padding-top: 6em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+}
+
+.photo {
+  position: relative;
+  top: 4.5em;
+  width: 9em;
+  z-index: 666;
+}
+
+.projects {
+  margin: 0 auto;
+  width: 90%;
+  text-align: center;
+}
+
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+.tag {
+  color: #999;
+  padding-left: 1em;
+  padding-right: 1em
+}
